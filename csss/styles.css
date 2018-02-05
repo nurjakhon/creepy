@@ -3,6 +3,7 @@
 @import "globals.css";
 @import "header.css";
 @import "footer.css";
+@import "explore.css";
 
 .header {
   border-bottom: 1px solid #e6e6e6;
@@ -53,9 +54,25 @@
   padding-left: 15px;
 }
 .feed__pic {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
+}
+.right__box__nickname {
+  font-weight: 600;
+  padding-left: 15px;
+}
+.right__box__subtitle {
+  color: #c8c8c8;
+  padding-left: 15px;
+  display: block;
+}
+
+.right__box__subtitle {
+  font-size: 10px;
+}
+.feed__spanbox {
+  margin-left: 10px;
 }
 .feed .main__right__small {
   padding-right: 150px;
@@ -147,10 +164,13 @@
 .feed__box {
   display: flex;
 }
+.feed__box__1 {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+}
 .feed__right__smallbox {
   display: flex;
   margin-top: 58px;
-  border-bottom: 1px solid #e6e6e6;
 }
 
 .right__bottom__small__1 {
@@ -167,4 +187,27 @@
 
 .right__lists {
   margin-top: 12px;
+}
+
+.feed__add__comment {
+  width: 98%;
+}
+
+.feed__ellip {
+  display: flex;
+  width: 100%;
+}
+.ellipsis {
+  font-size: 12px;
+  width: 100%;
+}
+
+.fas__ellipsis {
+  font-size: 12px;
+}
+
+.textarea__ellipsis {
+}
+.feed__add__comment {
+  border-color: #fafafa;
 }
