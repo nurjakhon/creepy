@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@import "reset.css";
+@import "globals.css";
+@import "header.css";
+@import "footer.css";
+
+.header {
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  height: 78px;
+}
+.instagramm {
+  font-size: 35px;
+}
+.header__1 {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+.feed__log__instagramm {
+  margin-left: 20px;
+  border-left: 2px solid rgba(0, 0, 0, 1);
+  width: 109px;
+  height: 32px;
+}
+.header__logo1 {
+  padding-left: 17px;
+}
+.header__search {
+  display: flex;
+}
+
+.search__space {
+  width: 200px;
+  height: 100px;
+}
+
+.header__searcher {
+  width: 216px;
+  height: 26px;
+}
+
+.main__right__feed {
+  display: flex;
+  justify-content: space-between;
+}
+.main__header__bold {
+  font-weight: 600;
+  padding-left: 15px;
+}
+.main__header__grey {
+  color: #c8c8c8;
+  padding-left: 15px;
+}
+.feed__pic {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.feed .main__right__small {
+  padding-right: 150px;
+}
+.photo {
+  width: 60%;
+}
+.main__photo {
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  width: 95%;
+}
+.main__photo__smallbox {
+  display: flex;
+  padding: 20px;
+}
+.right__bottom__story {
+  font-weight: 700;
+  color: #bababa;
+}
+.right__bottom__watchall {
+  font-size: 12px;
+  font-weight: 800;
+  color: black;
+}
+.right__content__list {
+  padding-right: 45%;
+}
+.photo {
+  margin-top: 5px;
+  width: 70%;
+}
+
+.icons {
+  display: flex;
+  width: 30px;
+  height: 23px;
+}
+
+.icon__names__2 {
+  margin-left: 15px;
+}
+
+.likes {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.comment {
+  font-size: 26px;
+}
+.heart {
+  font-size: 26px;
+}
+.commment__names {
+  font-weight: 600;
+  line-height: 1.4;
+}
+.feed__time {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+  color: #cbcbcb;
+}
+.main__photo__pic {
+  width: 31px;
+  height: 33px;
+  border-radius: 50%;
+}
+.main__name {
+  font-weight: 600;
+  padding: 10px 0px 0px 15px;
+}
+.main__header__name {
+  padding: 10px 0px 0px 5px;
+}
+.main__photo {
+  display: flex;
+}
+
+.feed {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  margin-top: 60px;
+}
+
+.feed__box {
+  display: flex;
+}
+.feed__right__smallbox {
+  display: flex;
+  margin-top: 58px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.right__bottom__small__1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 27px;
+}
+.list__item__photo {
+  width: 34px;
+  height: 31px;
+  border-radius: 50%;
+}
+
+.right__lists {
+  margin-top: 12px;
+}

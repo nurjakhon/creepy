@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  height: 78px;
+}
+.header .header__searcher {
+  align-content: center;
+}
+.header .header__logo {
+  padding-right: 80px;
+  max-width: 200px;
+}
+.header .header__1 {
+  padding-left: 228px;
+}
+
+.nav {
+  padding: -5px;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.feed__main__photo {
+  width: 95%;
+}
+.header__searcher {
+  align-self: center;
+  padding-left: 60px;
+}
+.url {
+  padding: 35px;
+  height: 30px;
+  width: 30px;
+}
+
+.compas {
+  font-size: 25px;
+}
+.heart {
+  font-size: 25px;
+}
+.user {
+  font-size: 25px;
+}
