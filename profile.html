@@ -11,108 +11,97 @@
 
 <body>
     <header class="header">
-        <div class="header__1">
-            <a class="instagramm">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <div class="feed__log__instagramm">
+        <div class="header__container">
+            <div class="header__column">
                 <a href="feed.html">
-                    <div class="header__logo1">
-                        <img src="images/logo.png" class="header__logo"></img>
-                    </div>
+                    <i class="fab fa-instagram"></i>
+                    <img class="header__logo" src="images/logo.png" alt="Logo" title="Logo">
                 </a>
             </div>
+            <div class="header__column">
+                <input class="header__input" type="text" placeholder="Search">
+            </div>
+            <div class="header__column">
+                <nav class="header__navigation">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="explore.html" class="header__link">
+                                <i class="far fa-compass"></i>
+                            </a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#" class="header__link">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="profile.html" class="header__link">
+                                <i class="far fa-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="header__search">
-            <form action="feed.html" class="header__searcher">
-                <input type="text" placeholder="search">
-            </form>
-            <div class="search__space"></div>
-        </div>
-        <ul class="nav">
-            <il class="url">
-                <a href="explore.html" class="compas">
-                    <i class="far fa-compass"></i>
-                </a>
-            </il>
-            <il class="url">
-                <a href="#" class="heart">
-                    <i class="far fa-heart"></i>
-                </a>
-            </il>
-            <il class="url">
-                <a href="profile.html" class="user">
-                    <i class="far fa-user"></i>
-                </a>
-            </il>
-        </ul>
     </header>
-    <main class="profile">
+    <main class="main__profile">
         <header class="profile__header">
-            <div class="profile__column">
-                <img src="images/photo1.jpg" alt="" class="profile__image">
+            <div class="profile__column__father">
+                <div class="profile__column">
+                    <img src="images/photo1.jpg" alt="" class="profile__image">
+                </div>
+                <div class="profile__column2">
+                    <div class="prof__colum__1">
+                        <h1 class="profile__name1">nickie_rattford</h1>
+                        <a href="edit_profile.html" class="profile__edit">
+                            <button class="profile__btn">Edit Profile</button>
+                        </a>
+                        <a href="#" class="profile__settings">
+                            <i class="fas fa-cog"></i>
+                        </a>
+                    </div>
+                    <ul class="profile__info">
+                        <li class="profile__info1">
+                            <span class="profile__numbers">1000</span> posts
+                        </li>
+                        <li class="profile__info1">
+                            <span class="profile__numbers">1000</span> followers
+                        </li>
+                        <li class="profile__info1">
+                            <span class="profile__numbers">1000</span> following
+                        </li>
+                    </ul>
+                    <p class="profile__name">
+                        <span class="profile__fullname">Nurjakhon Radjabov</span> Thailand, Chiang Mai</p>
+                    <a href="#" class="profile__url">nickie_rattford
+                    </a>
+                </div>
             </div>
-            <div class="profile__column">
-                <h1>Nickie_Rattford</h1>
-                <a href="edit_profile.html" class="profile__edit">Edit Profile
-                </a>
-                <a href="#" class="header__link" class="profile__settings">
-                    <i class="fas fa-cog"></i>
-                </a>
-            </div>
-            <ul class="profile__info">
-                <li class="info">
-                    <span class="numbers">94651321</span> posts
-                </li>
-                <li class="info">
-                    <span class="numbers">965132</span> followers
-                </li>
-                <li class="info">
-                    <span class="numbers">11659</span> following
-                </li>
-            </ul>
-            <p class="profile__name">
-                <span>Nurjakhon Radjabov</span>Thailand, Chiang Mai</p>
-            <a href="#" class="url">nickie_rattford
-            </a>
         </header>
         <div class="meta">
-            <a href="#" class="posts">Posts</a>
-            <a href="#" class="saved">Saved</a>
+            <a href="#" class="posts">POSTS</a>
+            <a href="#" class="saved">SAVED</a>
         </div>
-        <ul class="profile__photos">
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-            <li class="profile__photo">
-                <img src="images/nomad.jpg" alt="" class="profile_photo__file">
-            </li>
-        </ul>
-
+        <div class="profile__content">
+            <div class="child__photo">
+                <img src="images/nomad.jpg" alt="" class="profile__pic">
+            </div>
+            <div class="child__photo">
+                <img src="images/nomad.jpg" alt="" class="profile__pic">
+            </div>
+            <div class="child__photo">
+                <img src="images/nomad.jpg" alt="" class="profile__pic">
+            </div>
+            <div class="child__photo">
+                <img src="images/nomad.jpg" alt="" class="profile__pic">
+            </div>
+            <div class="child__photo">
+                <img src="images/nomad.jpg" alt="" class="profile__pic">
+            </div>
+            <div class="child__photo">
+                <img src="images/nomad.jpg" alt="" class="profile__pic">
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <nav class="footer__nav">
