@@ -51,6 +51,7 @@
   border: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fafafa;
+  transition: padding-left 1s linear;
 }
 .header__column .header__input:focus {
   outline: none;

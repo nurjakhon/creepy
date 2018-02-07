@@ -1,0 +1,39 @@
+.index__login {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 60%;
+}
+.index__content {
+  display: flex;
+  width: 80%;
+  margin-top: 55px;
+}
+.login__column {
+  width: 60%;
+}
+
+.login__image {
+  width: 100%;
+}
+.android__image {
+  width: 134px;
+  height: 38px;
+}
+.ios__image {
+  width: 134px;
+  height: 38px;
+}
+.logo__logo {
+  width: 125px;
+  height: 48px;
+}
+.login__box {
+  display: block;
+  justify-content: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 29vh;
+  padding: 14px;
+}

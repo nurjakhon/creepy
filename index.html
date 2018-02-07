@@ -6,42 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Log In | Uzbekgram</title>
     <link rel="stylesheet" href="csss/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <main class="login">
-        <div class="login__column">
-            <img src="images/phoneImage.png" class="login__image">
-        </div>
-        <div class="login__column">
-            <div class="login__box">
-                <img src="images/logo.png" class="logo__logo">
-                <form action="feed.html" method="post">
-                    <input type="text" placeholder="Phone,number,username or email" required>
-                    <input type="password" placeholder="Password" required>
-                    <input type="submit" placeholder="Submit" value="Log In">
-                </form>
-                <a href="#" class="login__link">Log in with Facebook</a>
-                <span>OR</span>
-                <a href="#" class="login__small">Forgot password?</a>
+    <main class="index__login">
+        <div class="index__content">
+            <div class="login__column animated lightSpeedIn">
+                <img src="images/phoneImage.png" class="login__image">
             </div>
-            <div class="login__box">
-                <span>Don`t have an account?
-                    <a href="#">Sign Up</a>
-                </span>
-            </div>
-            <div class="login_box">
-                <span>Get the app.</span>
+            <div class="login__column animated bounceInDown">
+                <div class="login__box">
+                    <img src="images/logo.png" class="logo__logo">
+                    <form action="feed.html" method="post">
+                        <input type="text" placeholder="Phone,number,username or email" required>
+                        <input type="password" placeholder="Password" required>
+                        <input type="submit" placeholder="Submit" value="Log In">
+                    </form>
+                    <a href="#" class="login__link">Log in with Facebook</a>
+                    <span>OR</span>
+                    <a href="#" class="login__small">Forgot password?</a>
+                </div>
+                <div class="login__box">
+                    <span>Don`t have an account?
+                        <a href="#">Sign Up</a>
+                    </span>
+                </div>
+                <div class="login_box">
+                    <span>Get the app.</span>
 
-                <div class="login__appstores">
-                    <a href="#">
-                        <img src="images/ios.png" class="ios__image">
-                    </a>
-                    <a href="#">
-                        <img src="images/android.png" class="android__image">
-                    </a>
+                    <div class="login__appstores">
+                        <a href="#">
+                            <img src="images/ios.png" class="ios__image">
+                        </a>
+                        <a href="#">
+                            <img src="images/android.png" class="android__image">
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
     </main>
 
     <footer class="footer">
